@@ -47,7 +47,7 @@ Write the following items to the file:
 - **degree** (`Doctor` or `MASTER`)
 - **major** (`ENGINEERING` or `SCIENCE`)
 - **student number** (e.g., doctor: `DD123456`, master: `MT123456`)
-- **title** of your thesis
+- **title** of the thesis
 - **your name**
 - **abstract** of the thesis
 - **keywords** of the thesis
