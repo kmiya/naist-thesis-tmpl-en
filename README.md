@@ -67,4 +67,5 @@ to
 \usepackage{tocbibind}
 ```
 
-Notice that the change might break the layout of ``Contents'' on a certain LaTeX environment. (Thanks [matcha-shake](https://github.com/matcha-shake)).
+Notice that the change might break the layout of ``Contents'' on a certain LaTeX environment
+(thanks to @matcha-shake for reporting this issue).
