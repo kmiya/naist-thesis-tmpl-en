@@ -1,0 +1,58 @@
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{cite}
+\RequirePackage[l2tabu, orthodox]{nag}
+\usepackage[all, warning]{onlyamsmath}
+
+\let\equation\gather
+\let\endequation\endgather
+\usepackage{fancybox}
+\usepackage[flushmargin,symbol]{footmisc}
+\usepackage[nottoc]{tocbibind}
+
+\usepackage[%
+ bookmarks=true,%
+ bookmarksnumbered=true,%
+ setpagesize=false,%
+ colorlinks=false,%
+ linkbordercolor={0.8 0.8 0.8},%
+ citebordercolor={0.8 0.8 0.8},%
+ pdfborder={0 0 0.6},%
+ urlcolor=black,linkcolor=black,citecolor=black,%
+ pdftitle={},%   Title of the dissertation
+ pdfauthor={},%  Author's name
+ pdfsubject={Doctoral dissertation},%
+ pdfkeywords={\ekeywords}]{hyperref}
+
+% page layout from NAIST style
+%
+\topmargin=0.4truecm
+\textheight=20.5truecm                % height
+\textwidth=14.5truecm                 % width
+\oddsidemargin=0.6truecm              % left margin
+\evensidemargin=-3.8truecm            % right margin
+\linespread{1.2}
+
+\addtokomafont{disposition}{\rmfamily}
+\renewcommand{\bibname}{References}
+\setcounter{tocdepth}{4}
+
+\newcommand{\figlab}[1]{\label{fig:#1}}
+\newcommand{\figref}[1]{Fig.~\ref{fig:#1}} % Figure
+\newcommand{\forlab}[1]{\label{for:#1}}
+\newcommand{\forref}[1]{Eq.~(\ref{for:#1})} % Equation
+\newcommand{\seclab}[1]{\label{sec:#1}}
+\newcommand{\secref}[1]{Sect.~\ref{sec:#1}} % Section
+\newcommand{\chaplab}[1]{\label{chap:#1}}
+\newcommand{\chapref}[1]{Chap.~\ref{chap:#1}} % Chapter
+\newcommand{\exlab}[1]{\label{ex:#1}}
+\newcommand{\exref}[1]{{\bfseries Exp.~\ref{ex:#1}}} % Example
+\newcommand{\lmmlab}[1]{\label{lmm:#1}}
+\newcommand{\lmmref}[1]{{\bfseries Lemma~\ref{lmm:#1}}} % Lemma
+\newcommand{\thmlab}[1]{\label{thm:#1}}
+\newcommand{\thmref}[1]{{\bfseries Theorem~\ref{thm:#1}}} % Theorem
+\newcommand{\corlab}[1]{\label{cor:#1}}
+\newcommand{\corref}[1]{{\bfseries Corollary~\ref{cor:#1}}} % Corollary
