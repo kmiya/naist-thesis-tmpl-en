@@ -26,7 +26,7 @@ or [click this link](https://github.com/kmiya/naist-thesis-tmpl-en/archive/maste
 ├── thesis.tex                # main tex file
 └── tex
     ├── cmembers.tex          # write your (co-)supervisor's name
-    ├── personal_setting.tex  # write your student number, title, abstract, etc.
+    ├── personal_setting.tex  # write the title, abstract, etc.
     ├── setting.tex           # write LaTeX settings such as macros
     ├── chap1.tex
     ├── chap2.tex
@@ -46,7 +46,6 @@ Write the following items to the file:
 - **type** of the thesis (`Doctoral Dissertation` or `Master's Thesis`)
 - **degree** (`Doctor` or `MASTER`)
 - **major** (`ENGINEERING` or `SCIENCE`)
-- **student number** (e.g., doctor: `DD123456`, master: `MT123456`)
 - **title** of the thesis
 - **your name**
 - **abstract** of the thesis
